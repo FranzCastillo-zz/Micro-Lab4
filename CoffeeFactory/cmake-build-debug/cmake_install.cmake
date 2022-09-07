@@ -1,4 +1,4 @@
-# Install script for directory: D:/UVG/Segundo/SegundoSemestre/Microprocesadores/Laboratorios/Laboratorio4/Micro-Lab4/CoffeFabric
+# Install script for directory: D:/UVG/Segundo/SegundoSemestre/Microprocesadores/Laboratorios/Laboratorio4/Micro-Lab4/CoffeeFactory
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/UVG/Segundo/SegundoSemestre/Microprocesadores/Laboratorios/Laboratorio4/Micro-Lab4/CoffeFabric/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/UVG/Segundo/SegundoSemestre/Microprocesadores/Laboratorios/Laboratorio4/Micro-Lab4/CoffeeFactory/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

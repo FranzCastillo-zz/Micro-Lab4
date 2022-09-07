@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = D$:/UVG/Segundo/SegundoSemestre/Microprocesadores/Laboratorios/Laboratorio4/Micro-Lab4/CoffeFabric/cmake-build-debug/
+cmake_ninja_workdir = D$:/UVG/Segundo/SegundoSemestre/Microprocesadores/Laboratorios/Laboratorio4/Micro-Lab4/CoffeeFactory/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target CoffeFabric
 
@@ -49,7 +49,7 @@ cmake_ninja_workdir = D$:/UVG/Segundo/SegundoSemestre/Microprocesadores/Laborato
 
 build cmake_object_order_depends_target_CoffeFabric: phony || CMakeFiles/CoffeFabric.dir
 
-build CMakeFiles/CoffeFabric.dir/main.cpp.obj: CXX_COMPILER__CoffeFabric_Debug D$:/UVG/Segundo/SegundoSemestre/Microprocesadores/Laboratorios/Laboratorio4/Micro-Lab4/CoffeFabric/main.cpp || cmake_object_order_depends_target_CoffeFabric
+build CMakeFiles/CoffeFabric.dir/main.cpp.obj: CXX_COMPILER__CoffeFabric_Debug D$:/UVG/Segundo/SegundoSemestre/Microprocesadores/Laboratorios/Laboratorio4/Micro-Lab4/CoffeeFactory/main.cpp || cmake_object_order_depends_target_CoffeFabric
   DEP_FILE = CMakeFiles\CoffeFabric.dir\main.cpp.obj.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\CoffeFabric.dir
@@ -81,7 +81,7 @@ build CoffeFabric.exe: CXX_EXECUTABLE_LINKER__CoffeFabric_Debug CMakeFiles/Coffe
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D D:\UVG\Segundo\SegundoSemestre\Microprocesadores\Laboratorios\Laboratorio4\Micro-Lab4\CoffeFabric\cmake-build-debug && "D:\Programs\CLion\Install\CLion 2022.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D D:\UVG\Segundo\SegundoSemestre\Microprocesadores\Laboratorios\Laboratorio4\Micro-Lab4\CoffeeFactory\cmake-build-debug && "D:\Programs\CLion\Install\CLion 2022.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -92,7 +92,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D D:\UVG\Segundo\SegundoSemestre\Microprocesadores\Laboratorios\Laboratorio4\Micro-Lab4\CoffeFabric\cmake-build-debug && "D:\Programs\CLion\Install\CLion 2022.2\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SD:\UVG\Segundo\SegundoSemestre\Microprocesadores\Laboratorios\Laboratorio4\Micro-Lab4\CoffeFabric -BD:\UVG\Segundo\SegundoSemestre\Microprocesadores\Laboratorios\Laboratorio4\Micro-Lab4\CoffeFabric\cmake-build-debug"
+  COMMAND = cmd.exe /C "cd /D D:\UVG\Segundo\SegundoSemestre\Microprocesadores\Laboratorios\Laboratorio4\Micro-Lab4\CoffeeFactory\cmake-build-debug && "D:\Programs\CLion\Install\CLion 2022.2\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SD:\UVG\Segundo\SegundoSemestre\Microprocesadores\Laboratorios\Laboratorio4\Micro-Lab4\CoffeeFactory -BD:\UVG\Segundo\SegundoSemestre\Microprocesadores\Laboratorios\Laboratorio4\Micro-Lab4\CoffeeFactory\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -110,7 +110,7 @@ build CoffeFabric: phony CoffeFabric.exe
 # =============================================================================
 
 #############################################
-# Folder: D:/UVG/Segundo/SegundoSemestre/Microprocesadores/Laboratorios/Laboratorio4/Micro-Lab4/CoffeFabric/cmake-build-debug
+# Folder: D:/UVG/Segundo/SegundoSemestre/Microprocesadores/Laboratorios/Laboratorio4/Micro-Lab4/CoffeeFactory/cmake-build-debug
 
 build all: phony CoffeFabric.exe
 

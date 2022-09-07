@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "d:/UVG/Segundo/SegundoSemestre/Microprocesadores/Laboratorios/Laboratorio4/Micro-Lab4/CoffeFabric/cmake-build-debug"
+			"value" : "d:/UVG/Segundo/SegundoSemestre/Microprocesadores/Laboratorios/Laboratorio4/Micro-Lab4/CoffeeFactory/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -623,7 +623,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "D:/UVG/Segundo/SegundoSemestre/Microprocesadores/Laboratorios/Laboratorio4/Micro-Lab4/CoffeFabric"
+			"value" : "D:/UVG/Segundo/SegundoSemestre/Microprocesadores/Laboratorios/Laboratorio4/Micro-Lab4/CoffeeFactory"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1239,7 +1239,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/UVG/Segundo/SegundoSemestre/Microprocesadores/Laboratorios/Laboratorio4/Micro-Lab4/CoffeFabric/cmake-build-debug"
+			"value" : "D:/UVG/Segundo/SegundoSemestre/Microprocesadores/Laboratorios/Laboratorio4/Micro-Lab4/CoffeeFactory/cmake-build-debug"
 		},
 		{
 			"name" : "CoffeFabric_IS_TOP_LEVEL",
@@ -1263,7 +1263,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/UVG/Segundo/SegundoSemestre/Microprocesadores/Laboratorios/Laboratorio4/Micro-Lab4/CoffeFabric"
+			"value" : "D:/UVG/Segundo/SegundoSemestre/Microprocesadores/Laboratorios/Laboratorio4/Micro-Lab4/CoffeeFactory"
 		}
 	],
 	"kind" : "cache",

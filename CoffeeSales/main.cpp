@@ -108,11 +108,13 @@ void createMonthSales(){
  */
 void analyzeMonthData(Month* month){
     double totalSales = 0;
+    double totalUtility = 0;
     for(auto product : month->products){
         totalSales += product.sales;
+        totalUtility += product.utility;
     }
     month->totalSales = totalSales;
-    month->utility = totalSales - month->variableCosts;
+    month->utility = totalUtility - month->variableCosts;
 }
 
 /**

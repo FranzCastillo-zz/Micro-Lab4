@@ -7,7 +7,7 @@ pthread_mutex_t mutexCoffee;
 pthread_cond_t canBalerStart;
 
 // INITIAL VALUES FOR THE SIMULATION
-const int maxBags = 400;
+const int maxBags = 20;
 int warehouseBags = 0;
 int siloBags = 0;
 
@@ -96,8 +96,7 @@ int main() {
     // Joins the threads
     for(auto thread : threads){
         pthread_join(thread, nullptr);
-    }
-    // Deallocates memory
+    }       // Deallocates memory
     pthread_mutex_destroy(&mutexCoffee);
     pthread_cond_destroy(&canBalerStart);
     return 0;
